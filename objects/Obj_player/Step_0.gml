@@ -42,4 +42,26 @@ if (place_meeting(x,y+vsp,obj_ground))
 }
 y = y + vsp;
 
+//Animation
+if (!place_meeting(x,y+1,obj_ground))
+{
+	sprite_index = sprite_air;
+	image_speed = 0;
+	if (vsp > 0) image_index = 1; else image_index = 0;
+	
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = sprite_idle;
+	}
+	else
+	{
+		sprite_index = sprite_run;
+	}
+}
+
+if (hsp != 0) image_xscale = -3*sign(hsp);
 
