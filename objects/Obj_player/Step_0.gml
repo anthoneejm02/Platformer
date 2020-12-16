@@ -18,6 +18,7 @@ if (place_meeting(x,y+1,obj_ground)) && (key_jump)
 }
 
 
+
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_ground))
 {
@@ -29,6 +30,7 @@ if (place_meeting(x+hsp,y,obj_ground))
 }
 x = x + hsp;
 
+
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_ground))
 {
@@ -39,3 +41,5 @@ if (place_meeting(x,y+vsp,obj_ground))
 	vsp = 0;
 }
 y = y + vsp;
+
+

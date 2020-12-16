@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "1468292f-c5b8-48e8-a433-b5e47089a0d3",
+            "Value": {
+                "id": "136a8f41-9fd4-49e0-9047-b86725084b0e",
+                "resourcePath": "sprites\\sprite_idle\\sprite_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "15e787ed-2ff5-416a-be41-2e95ab4f6a65",
+            "Value": {
+                "id": "3b07f40e-4925-4917-9662-800584fe00c4",
+                "resourcePath": "sprites\\sprite_woods\\sprite_woods.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e2df322-b6bb-43fd-ba2d-8a1e434120f4",
             "Value": {
                 "id": "563b986c-d52e-482d-9738-1e4c0a3eed93",
@@ -108,6 +124,14 @@
                 "id": "c382ddd3-9746-4cf7-bbc2-6a342dce7ca3",
                 "resourcePath": "objects\\obj_ground\\obj_ground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4b496b9-6457-45e4-bb67-22a23e3998ca",
+            "Value": {
+                "id": "46762a4d-fa09-42e4-a655-95b8c62442be",
+                "resourcePath": "sprites\\sprite_air\\sprite_air.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,10 +215,10 @@
             }
         },
         {
-            "Key": "de0cef21-da0f-4533-a04e-86e5c98ec645",
+            "Key": "e1600b12-11ab-4ce1-ad0c-2d83432ed924",
             "Value": {
-                "id": "9b1d995a-676c-40eb-be23-3b1fb816cbce",
-                "resourcePath": "sprites\\Sprite_playerIdle\\Sprite_playerIdle.yy",
+                "id": "47dcada1-d46c-4242-b029-325208d90ab5",
+                "resourcePath": "sprites\\sprite_run\\sprite_run.yy",
                 "resourceType": "GMSprite"
             }
         },
