@@ -57,4 +57,4 @@ else
 
 if (hsp != 0) image_xscale = -3*sign(hsp);
 
-if (key_attack) state = PLAYERSTATE.ATTACK_SLASH
+if (key_attack) state = PLAYERSTATE.ATTACK_SLASH;
