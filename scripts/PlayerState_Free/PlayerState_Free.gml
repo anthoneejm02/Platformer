@@ -1,18 +1,3 @@
-/// @desc Core Player Logic
-
-//Get player inputs
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_up) || keyboard_check(ord("Space"));
-key_attack = keyboard_check_pressed(vk_down);
-
-switch (state)
-{
-	case PLAYERSTATE.FREE: PlayerState_Free(); break;
-	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash
-	
-}
-//Calculate movement
 var _move = key_right - key_left;
 
 hsp = _move * walksp;
@@ -71,4 +56,3 @@ else
 }
 
 if (hsp != 0) image_xscale = -3*sign(hsp);
-

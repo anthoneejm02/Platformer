@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "014b757d-9496-48f0-8881-1bf9c5814835",
+            "Value": {
+                "id": "6966239b-bf20-4943-bc50-7cdd6889ed7d",
+                "resourcePath": "scripts\\PlayerState_Attack_SLash\\PlayerState_Attack_SLash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0a8c6684-7260-4e0e-a4cf-f844565be9e0",
             "Value": {
                 "id": "7119c9e3-f726-4000-866e-65bcd28b917d",
@@ -95,11 +103,35 @@
             }
         },
         {
+            "Key": "5cb81cbf-14e8-49ce-9222-ee14c87dceac",
+            "Value": {
+                "id": "392755e6-baab-4d4e-bfd0-fbc2557675e7",
+                "resourcePath": "sprites\\sprite_Denemy\\sprite_Denemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c018e1d-5968-4e4a-8107-b771ad6f7fa0",
             "Value": {
                 "id": "fd453444-8f7f-4145-834c-6ffd84b34d02",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6dc9c4c9-ba9f-4f69-ad88-37cc205831fd",
+            "Value": {
+                "id": "92183f2c-140e-4841-b9c4-5b0fb9dccf19",
+                "resourcePath": "scripts\\PlayerState_Free\\PlayerState_Free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6f25a138-947b-4d43-9199-62366f4a7c8f",
+            "Value": {
+                "id": "00ad59a5-4e34-49a8-9830-49918bffec48",
+                "resourcePath": "objects\\Obj_Enemy\\Obj_Enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +279,14 @@
             }
         },
         {
+            "Key": "efc41932-b0fa-45be-be26-f8edc4f6dbc7",
+            "Value": {
+                "id": "54893847-7965-4f68-809b-200f91ff2982",
+                "resourcePath": "scripts\\PlayerState_Attack_Combo\\PlayerState_Attack_Combo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f2e3f2a1-abdb-4487-b39f-7a1b2c037e75",
             "Value": {
                 "id": "0f6a14a6-45fb-44e8-8e2f-4cb3f6351133",
@@ -264,7 +304,9 @@
         }
     ],
     "script_order": [
-        
+        "6dc9c4c9-ba9f-4f69-ad88-37cc205831fd",
+        "014b757d-9496-48f0-8881-1bf9c5814835",
+        "efc41932-b0fa-45be-be26-f8edc4f6dbc7"
     ],
     "tutorial": ""
 }
