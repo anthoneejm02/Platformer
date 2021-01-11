@@ -9,7 +9,8 @@ key_attack = keyboard_check_pressed(vk_down);
 switch (state)
 {
 	case PLAYERSTATE.FREE: PlayerState_Free(); break;
-	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash
+	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_SLash(); break;
+	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Combo(); break;
 	
 }
 //Calculate movement
