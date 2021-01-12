@@ -1,9 +1,8 @@
-/// @desc Establish Some Key variables
 hitNow = false;
 frameCount = 0;
 flash = false;
 state = ENEMYSTATE.FREE;
-hp = 4;
+hp = 8;
 
 enum ENEMYSTATE
 {
@@ -12,10 +11,3 @@ enum ENEMYSTATE
 	DEAD
 }
 image_index = irandom(10);
-hsp = 0;
-vsp = 0;
-grv = 0.3;
-walksp = 4;
-jumpsp = 9;
-
-flash = 0;

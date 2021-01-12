@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "36ee4852-65db-4058-a572-47751947d975",
+            "Value": {
+                "id": "228332af-236f-4b81-9ff4-8034edcd1b18",
+                "resourcePath": "scripts\\ProcessAttack\\ProcessAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "38aab5bb-cdae-495b-96f2-dc0d3df770fc",
             "Value": {
                 "id": "e9a85536-7f88-442b-b2c8-d4fbf0f62847",
@@ -191,11 +199,11 @@
             }
         },
         {
-            "Key": "95995ef4-ede4-489f-b72d-b2a9820942fe",
+            "Key": "97f8053b-bc79-4cff-b79e-bab3b4d071ca",
             "Value": {
-                "id": "c382ddd3-9746-4cf7-bbc2-6a342dce7ca3",
-                "resourcePath": "objects\\obj_ground\\obj_ground.yy",
-                "resourceType": "GMObject"
+                "id": "0ebff433-b9b2-4fb3-a3f1-98e1208a3d82",
+                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -365,6 +373,14 @@
                 "resourcePath": "scripts\\EnemyHit\\EnemyHit.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "ffbcb5c0-5853-4bb0-bc06-970ae3dbacae",
+            "Value": {
+                "id": "d6e8ab19-230c-4098-9822-7c45b4207804",
+                "resourcePath": "objects\\obj_ground\\obj_ground.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -375,7 +391,8 @@
         "557b8bde-fd51-4293-bb5b-55e550cdb481",
         "c15a2250-a057-4ea6-b393-58daddc98ab9",
         "9d31678b-cb4f-4a19-a1e6-47cb8a1e6340",
-        "71d28da8-46fe-49bf-84cb-2f03c518c5c7"
+        "71d28da8-46fe-49bf-84cb-2f03c518c5c7",
+        "36ee4852-65db-4058-a572-47751947d975"
     ],
     "tutorial": ""
 }
