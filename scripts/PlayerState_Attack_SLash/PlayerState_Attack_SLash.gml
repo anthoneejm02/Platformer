@@ -32,4 +32,8 @@ if (hits > 0)
 ds_list_destroy(hitByAttackNow);
 mask_index = sprite_idle;
 
-if (image_index > image_number-1)
+if (animation_end())
+{
+	sprite_index = sprite_idle;
+	state = PLAYERSTATE.FREE;
+}

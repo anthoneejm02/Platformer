@@ -1,4 +1,4 @@
-var_damage = argument0;
+var _damage = argument0;
 
 hp -= _damage;
 flash = true;
